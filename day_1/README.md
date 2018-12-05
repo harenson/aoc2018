@@ -28,7 +28,7 @@ Starting with a frequency of zero, what is the resulting frequency after all of 
 changes in frequency have been applied?
 
 ```erlang
-\$ erl -noshell -eval 'c:c(day1), io:format("~p~n", [day1:solve_part1("./input.txt")])' -eval 'init:stop()'
+$ erl -noshell -eval 'c:c(day1), io:format("~p~n", [day1:solve_part1("./input.txt")])' -eval 'init:stop()'
 ```
 
 
@@ -53,13 +53,13 @@ and that duplicates might be found while in the middle of processing the list.
 
 Here are other examples:
 
-`+1, -1` first reaches 0 twice.
-`+3, +3, +4, -2, -4` first reaches `10` twice.
-`-6, +3, +8, +5, -6` first reaches `5` twice.
+`+1, -1` first reaches 0 twice.  
+`+3, +3, +4, -2, -4` first reaches `10` twice.  
+`-6, +3, +8, +5, -6` first reaches `5` twice.  
 `+7, +7, -2, -7, -4` first reaches `14` twice.
 
 What is the first frequency your device reaches twice?
 
 ```erlang
-\$ erl -noshell -eval 'c:c(day1), io:format("~p~n", [day1:solve_part2("./input.txt")])' -eval 'init:stop()'
+$ erl -noshell -eval 'c:c(day1), io:format("~p~n", [day1:solve_part2("./input.txt")])' -eval 'init:stop()'
 ```
